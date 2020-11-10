@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 //template
-import '../components/index/index_template.dart';
+import '../components/index/indexTemplate.dart';
 
 class Index extends StatefulWidget {
   @override

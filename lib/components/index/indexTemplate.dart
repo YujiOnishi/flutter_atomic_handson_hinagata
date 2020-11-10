@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 
 //Organisms
-//import './organisms/imageHeader.dart';
-import 'organisms/articleBody.dart';
-import './organisms/sideInfoBody.dart';
-import './organisms/footer.dart';
+//import 'organisms/imageHeader.dart';
 
 class IndexTemplate extends StatefulWidget {
   IndexTemplate({Key key, this.data}) : super(key: key);
