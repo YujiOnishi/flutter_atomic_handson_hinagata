@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import '../../commons/atoms/sideInfoTitle.dart';
 
 class SideInfoNoneArchive extends StatelessWidget {
   @override

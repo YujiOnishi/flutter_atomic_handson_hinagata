@@ -10,10 +10,6 @@ class ArticleBodyOrganisms extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    String date = "2020-11-14";
-    String title = "Flutter";
-    List badges = ["te", "tes", "test"];
-
     return Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: createArticles(context));
