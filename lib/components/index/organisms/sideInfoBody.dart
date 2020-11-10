@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 //moleculus
 import '../moleculus/profile.dart';
 import '../moleculus/sideInfoArchives.dart';
+import '../moleculus/sideInfoSearch.dart';
 
 class SideInfoBodyOrganisms extends StatelessWidget {
   SideInfoBodyOrganisms({Key key, this.data}) : super(key: key);
@@ -21,7 +22,6 @@ class SideInfoBodyOrganisms extends StatelessWidget {
             right: 0,
             left: 0,
           ),
-          color: Colors.cyan,
           child: Profile(userName: data['userName']),
         ),
         Container(
@@ -31,7 +31,7 @@ class SideInfoBodyOrganisms extends StatelessWidget {
             right: 0,
             left: 0,
           ),
-          color: Colors.blue,
+          child: SideInfoSearch(),
         ),
         Container(
           padding: EdgeInsets.only(
